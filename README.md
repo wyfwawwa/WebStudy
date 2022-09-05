@@ -1,2 +1,2 @@
 # WebStudy
-学校
+学校Web课程
