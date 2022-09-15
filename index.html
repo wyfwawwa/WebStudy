@@ -4,34 +4,81 @@
 <head>
     <meta charset="utf-8">
     <title> 自我介绍</title>
-   
+    <!-- 外部样式 -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- 内部样式 -->
+    <style>
+        img {
+            width: 250px;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 
-<body background="https://img0.baidu.com/it/u=1666279677,1893188201&fm=253&fmt=auto&app=138&f=JPEG?w=658&h=288">
-        <h3>自我介绍</h3>
+<body>
+    <!-- 行内样式 -->
+    <h3 style="text-align: center;">自我介绍</h3>
     </header>
-
     <section>
-        <h4>个人信息</h4>
-         <p> Name:王一帆 &nbsp; Class:计科207 &nbsp; IDnumber:20171040218 <br>
-             Hobby:唱、跳、rap、篮球 &nbsp; &nbsp; QQnumebr:617756246
-        </p>   
+        <h4 style="text-align: center;">个人信息</h4>
+        <div class="myinfo">
+            <table>
+                <tbody>
+                    <tr>
+                        <td rowspan="6">
+                            <img
+                                src=https://img1.baidu.com/it/u=2825496734,2488572086&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500>
+                        </td>
+                        <td>姓名 ： 蔡徐坤</td>
+                        <td>手机 ： 123456789</td>
+
+                    </tr>
+                    <tr>
+                        <td>性别 ： 男</td>
+                        <td>邮箱 ： 123456789@qq.com</td>
+                    </tr>
+                    <tr>
+                        <td>出生 ： 2002.02.20</td>
+                        <td>QQ号 ： 123456789</td>
+                    </tr>
+                    <tr>
+                        <td>居住 ： 四川省宜宾市</td>
+                        <td>户籍 ： 四川省成都市</td>
+                    </tr>
+                    <tr>
+                        <td>学历 ： 本科</td>
+                        <td>学校 ： 四川轻化工大学</td>
+                    </tr>
+                    <tr>
+                        <td>专业 ： 计算机科学与技术</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
-    
-    <section>
-        <h4>想说的话</h4>
-        <article>
 
+    <section>
+        <div style="text-align: center">想说的话</div>
+        <div class="chinaese">
             <p>
-            Hello,everyone.My name is Wang Yifan, from the Computer Science and Technology major of Sichuan University of
-        Science and Engineering. I have been practicing for two and a half years. I like singing and dancing rap
-        basketball, and I am very glad to learn with you.
+                全民制作人们大家好,我是练习时长两年半的个人练习生蔡徐坤,喜欢唱,跳,rap,篮球,music……在今后的节目中，我还准备了很多我自己作词、作曲、编舞的原创作品，期待的话，请多多为我投票吧。
             </p>
-        </article>
-        <figure>
-            <img width="35%" src="https://img1.baidu.com/it/u=2158349483,3811489061&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=500"
-        alt="图片">
-        </figure>
+        </div>
+        <div class="English">
+            <p>
+                Hello everyone, I am Cai Xukun, an individual trainee who has practiced for two and a half years. I like
+                singing, dancing, rap, basketball, music... In the future programs, I have prepared many original works
+                of my own lyrics, compositions, choreography. If you look forward to it, please vote for me more.
+            </p>
+        </div>
+        <div id="video">
+            <iframe src="//player.bilibili.com/player.html?aid=542418059&bvid=BV1ei4y1j7ev&cid=246455366&page=1"
+                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="700px"
+                height="400">
+            </iframe>
+        </div>
     </section>
 </body>
 
