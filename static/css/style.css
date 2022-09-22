@@ -32,13 +32,22 @@ li {
 }
 
 .top ul li {
+    color: coral;
     margin: 5px 10px 20px 0;
     width: 120px;
     text-align: center;
     line-height: 50px;
-    font-size: 20px;
+    font-size: larger;
     color: #FFF;
     float: left;
+}
+
+.nav {
+    color: coral;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 .neirong {
@@ -58,7 +67,7 @@ li {
     margin: auto;
     padding: auto;
     width: 1000px;
-    height: 300px;
+    height: 400px;
     background-color: rgb(70, 71, 72, 0.5);
 }
 
